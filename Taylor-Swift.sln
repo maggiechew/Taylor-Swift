@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSwift.Core", "TSwift.Core\TSwift.Core.csproj", "{E2457118-1629-4F95-AEBE-30BA57DF48AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSwift.ApiClient", "TSwift.ApiClient\TSwift.ApiClient.csproj", "{977A3539-97C2-453B-AD81-0599EA65F26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSwift.BLL", "TSwift.BLL\TSwift.BLL.csproj", "{35ACE8D9-3C82-42B1-8089-AB85E1233236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4714DEAB-97D5-4AC1-96E7-2AE6C71C5309}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSwift.Tests", "TSwift.Tests\TSwift.Tests.csproj", "{697B3052-FBBA-4478-A895-96C394DE4F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2457118-1629-4F95-AEBE-30BA57DF48AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2457118-1629-4F95-AEBE-30BA57DF48AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2457118-1629-4F95-AEBE-30BA57DF48AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2457118-1629-4F95-AEBE-30BA57DF48AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977A3539-97C2-453B-AD81-0599EA65F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977A3539-97C2-453B-AD81-0599EA65F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977A3539-97C2-453B-AD81-0599EA65F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977A3539-97C2-453B-AD81-0599EA65F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ACE8D9-3C82-42B1-8089-AB85E1233236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ACE8D9-3C82-42B1-8089-AB85E1233236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ACE8D9-3C82-42B1-8089-AB85E1233236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ACE8D9-3C82-42B1-8089-AB85E1233236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697B3052-FBBA-4478-A895-96C394DE4F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697B3052-FBBA-4478-A895-96C394DE4F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697B3052-FBBA-4478-A895-96C394DE4F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697B3052-FBBA-4478-A895-96C394DE4F92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16700B55-FE3F-4DF0-B813-CC5B84EEEA4B}
+	EndGlobalSection
+EndGlobal
